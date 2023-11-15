@@ -1,0 +1,264 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #89a2bb; /* Light Gray */
+    color: #343a40; /* Dark Gray */
+    text-align: center;
+}
+
+header {
+    background-color: #4285f4; /* Google Blue */
+    color: #fff;
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+nav {
+    background-color: #61c0bf; /* Turquoise */
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    flex-wrap: wrap; /* Allow links to wrap to the next line on smaller screens */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 40px;
+}
+
+h2 {
+    color: #4285f4; /* Google Blue */
+}
+
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* White */
+    border: 1px solid #e0e0e0; /* Light Gray */
+    border-radius: 10px;
+}
+.dark-mode {
+    background-color: #2d3137; /* Cor de fundo para o modo escuro */
+    color: #000000; /* Cor do texto para o modo escuro */
+}
+
+/* Estilos para o cabeçalho (header) no modo escuro */
+.dark-mode header {
+background-color: #1a1a1a; /* Cor de fundo para o modo escuro no cabeçalho */
+}
+
+/* Estilos para a barra de navegação (nav) no modo escuro */
+.dark-mode nav {
+background-color: #303030; /* Cor de fundo para o modo escuro na barra de navegação */
+}
+
+/* Estilos para as seções (section) no modo escuro */
+.dark-mode section {
+background-color: #363636; /* Cor de fundo para o modo escuro nas seções */
+color: #fff; /* Cor do texto para o modo escuro nas seções */
+}
+
+/* Estilos para a tabela no modo escuro */
+.dark-mode table {
+background-color: #2d2d2d; /* Cor de fundo para o modo escuro na tabela */
+color: #fff; /* Cor do texto para o modo escuro na tabela */
+}
+/* Adicionando estilos para a seta para cima */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #4285f4; /* Cor de fundo para o botão */
+    color: #000000; /* Cor do texto para o botão */
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #1e3b6d; /* Cor de fundo para o botão ao passar o mouse */
+}
+
+
+#relato-video {
+    text-align: center;
+}
+
+#relato-video video {
+    width: 80%; /* Adjust as needed */
+    max-width: 400px; /* Set a maximum width */
+    height: auto;
+    border-radius: 20px;
+}
+
+#pricing {
+    padding: 20px;
+}
+
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.gallery-item {
+margin: 10px;
+}
+.contact-image {
+    max-width: 100px;
+    border-radius: 50%;
+}
+.relato {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.relato p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.relato h3 {
+    margin-top: 1rem;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+.relato img {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.cta-button {
+    display: inline-block;
+    background-color: #1e4873; /* Dark Blue */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #1e3b6d; /* Darker Blue */
+}
+
+footer {
+    background-color: #4285f4; /* Google Blue */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.space-image {
+    max-width: 256px;
+    max-height: 256px;
+}
+
+.contact {
+    background-color: #1e3b6d;
+    padding: 40px 0;
+    text-align: center;
+color: #000;
+}
+
+/* Estilos para a seção "Inscreva-se" */
+.signup {
+    background-color: #61c0bf;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.signup h2 {
+    margin-bottom: 20px;
+}
+
+.signup p {
+    margin-bottom: 30px;
+}
+
+
+th,
+td {
+    border: 1px solid #4169e1; /* Royal Blue */
+    padding: 10px;
+    text-align: left;
+}
+
+.download-bar {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .download-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+
+  .download-link:hover {
+    background-color: #e0e0e0;
+  }  
+
+  .read-more-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    transition: border-color 0.3s ease;
+  }
+
+  .read-more-link:hover {
+    border-color: #e0e0e0;
+  }
+.read-more-link {
+text-decoration: none;
+color: #256d1e;
+font-weight: bold;
+border-bottom: 2px solid #1e3b6d;
+transition: border-color 0.3s ease;
+}
+
+.read-more-link:hover {
+border-color: #256d1e;
+}
+
+
+
