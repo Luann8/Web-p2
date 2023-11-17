@@ -361,3 +361,21 @@ td {
         height: auto;
     }
 }
+
+@media (max-width: 768px) {
+    #relato-video video {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #pricing {
+        padding: 10px;
+    }
+
+    #pricing table {
+        width: 100%;
+        max-width: 100%;
+    }
+}
