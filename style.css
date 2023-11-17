@@ -2,13 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #89a2bb; /* Light Gray */
-    color: #343a40; /* Dark Gray */
+    background-color: #89a2bb;
+    color: #343a40;
     text-align: center;
 }
 
 header {
-    background-color: #4285f4; /* Google Blue */
+    background-color: #4285f4;
     color: #fff;
     padding: 2em;
 }
@@ -20,11 +20,11 @@ h1 {
 }
 
 nav {
-    background-color: #61c0bf; /* Turquoise */
+    background-color: #61c0bf;
     display: flex;
     justify-content: center;
     padding: 1em 0;
-    flex-wrap: wrap; /* Allow links to wrap to the next line on smaller screens */
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -37,7 +37,7 @@ nav a {
 }
 
 section {
-    background-color: #fff;
+    background-color: #cfcfcf;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px;
@@ -45,7 +45,7 @@ section {
 }
 
 h2 {
-    color: #4285f4; /* Google Blue */
+    color: #4285f4;
 }
 
 p {
@@ -58,44 +58,41 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #fff; /* White */
-    border: 1px solid #e0e0e0; /* Light Gray */
+    background-color: #ffffff34;
+    border: 1px solid #e0e0e0;
     border-radius: 10px;
 }
+
 .dark-mode {
-    background-color: #2d3137; /* Cor de fundo para o modo escuro */
-    color: #000000; /* Cor do texto para o modo escuro */
+    background-color: #2d3137;
+    color: #000000;
 }
 
-/* Estilos para o cabeçalho (header) no modo escuro */
 .dark-mode header {
-background-color: #1a1a1a; /* Cor de fundo para o modo escuro no cabeçalho */
+    background-color: #1a1a1a;
 }
 
-/* Estilos para a barra de navegação (nav) no modo escuro */
 .dark-mode nav {
-background-color: #303030; /* Cor de fundo para o modo escuro na barra de navegação */
+    background-color: #303030;
 }
 
-/* Estilos para as seções (section) no modo escuro */
 .dark-mode section {
-background-color: #363636; /* Cor de fundo para o modo escuro nas seções */
-color: #fff; /* Cor do texto para o modo escuro nas seções */
+    background-color: #363636;
+    color: #fff;
 }
 
-/* Estilos para a tabela no modo escuro */
 .dark-mode table {
-background-color: #2d2d2d; /* Cor de fundo para o modo escuro na tabela */
-color: #fff; /* Cor do texto para o modo escuro na tabela */
+    background-color: #2d2d2d;
+    color: #fff;
 }
-/* Adicionando estilos para a seta para cima */
+
 .scroll-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
     display: none;
-    background-color: #4285f4; /* Cor de fundo para o botão */
-    color: #000000; /* Cor do texto para o botão */
+    background-color: #4285f4;
+    color: #000000;
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -103,17 +100,16 @@ color: #fff; /* Cor do texto para o modo escuro na tabela */
 }
 
 .scroll-to-top:hover {
-    background-color: #1e3b6d; /* Cor de fundo para o botão ao passar o mouse */
+    background-color: #1e3b6d;
 }
-
 
 #relato-video {
     text-align: center;
 }
 
 #relato-video video {
-    width: 80%; /* Adjust as needed */
-    max-width: 400px; /* Set a maximum width */
+    width: 80%;
+    max-width: 400px;
     height: auto;
     border-radius: 20px;
 }
@@ -123,44 +119,54 @@ color: #fff; /* Cor do texto para o modo escuro na tabela */
 }
 
 .gallery {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .gallery-item {
-margin: 10px;
+    margin: 10px;
 }
+
 .contact-image {
     max-width: 100px;
     border-radius: 50%;
 }
+
+#bio {
+    text-align: center;
+    padding: 20px;
+}
+
 .relato {
     width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.relato p {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.relato h3 {
-    margin-top: 1rem;
-    font-family: 'Fraunces', serif;
-    font-size: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
 }
 
 .relato img {
-    width: 80px;
-    border-radius: 50%;
-    margin-top: 1rem;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
+
+.read-more-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #256d1e;
+    font-weight: bold;
+}
+
 .cta-button {
     display: inline-block;
-    background-color: #1e4873; /* Dark Blue */
+    background-color: #1e4873;
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
@@ -170,11 +176,11 @@ margin: 10px;
 }
 
 .cta-button:hover {
-    background-color: #1e3b6d; /* Darker Blue */
+    background-color: #1e3b6d;
 }
 
 footer {
-    background-color: #4285f4; /* Google Blue */
+    background-color: #4285f4;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -187,12 +193,11 @@ footer {
 
 .contact {
     background-color: #1e3b6d;
-    padding: 40px 0;
     text-align: center;
-color: #000;
+    color: #ffffff;
+    padding: 1em;
 }
 
-/* Estilos para a seção "Inscreva-se" */
 .signup {
     background-color: #61c0bf;
     color: #fff;
@@ -208,10 +213,9 @@ color: #000;
     margin-bottom: 30px;
 }
 
-
 th,
 td {
-    border: 1px solid #4169e1; /* Royal Blue */
+    border: 1px solid #4169e1;
     padding: 10px;
     text-align: left;
 }
@@ -220,9 +224,9 @@ td {
     background-color: #f4f4f4;
     padding: 10px;
     border-radius: 5px;
-  }
+}
 
-  .download-link {
+.download-link {
     text-decoration: none;
     color: #333;
     padding: 5px 10px;
@@ -231,34 +235,129 @@ td {
     border-radius: 3px;
     background-color: #fff;
     transition: background-color 0.3s ease;
-  }
+}
 
-  .download-link:hover {
+.download-link:hover {
     background-color: #e0e0e0;
-  }  
+}
 
-  .read-more-link {
+.read-more-link {
     text-decoration: none;
-    color: #333;
+    color: #256d1e;
     font-weight: bold;
     border-bottom: 2px solid #333;
     transition: border-color 0.3s ease;
-  }
-
-  .read-more-link:hover {
-    border-color: #e0e0e0;
-  }
-.read-more-link {
-text-decoration: none;
-color: #256d1e;
-font-weight: bold;
-border-bottom: 2px solid #1e3b6d;
-transition: border-color 0.3s ease;
 }
 
 .read-more-link:hover {
-border-color: #256d1e;
+    border-color: #256d1e;
 }
 
+.testimonials-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.testimonial {
+    background-color: #1e3b6d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding: 20px;
+}
 
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.testimonial h3 {
+    margin-top: 1rem;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#blog {
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blog-post {
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.blog-post img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .blog-post {
+        width: 100%;
+    }
+}
+
+.dark-mode body {
+    background-color: #333;
+    color: #000000;
+}
+
+.dark-mode .relato {
+    background-color: #fff;
+    color: #000000;
+}
+
+.dark-mode #blog {
+    background-color: #333;
+}
+
+.relato img {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 60px;
+}
+
+.dark-mode .read-more-link {
+    color: #256d1e;
+}
+
+.dark-mode .blog-container {
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .relato {
+        width: 45%; /* ou o valor desejado */
+        margin: 0 auto; /* centraliza o elemento */
+    }
+
+    .relato img {
+        width: 100%;
+        height: auto;
+    }
+}
