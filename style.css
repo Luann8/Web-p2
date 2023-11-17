@@ -364,8 +364,8 @@ td {
 
 @media (max-width: 768px) {
     #relato-video video {
-        width: 100%;
-        max-width: 100%;
+        width: 45%;
+        max-width: 45%;
     }
 }
 
@@ -375,7 +375,7 @@ td {
     }
 
     #pricing table {
-        width: 100%;
-        max-width: 100%;
+        width: 45%;
+        max-width: 45%;
     }
 }
