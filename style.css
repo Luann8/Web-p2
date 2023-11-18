@@ -388,27 +388,33 @@ td {
 @media only screen and (max-width: 600px) {
     table {
         width: 100%;
-    }
-    
-    table, th, td {
-        border: 1px solid #ddd;
-        text-align: left;
+        margin: 10px 0; /* Add margin for better spacing */
     }
 
-    /* Hide table header on small screens */
-    th {
-        display: none;
-    }
-
-    /* Display table rows as block for better readability on small screens */
-    tr {
+    th, td {
         display: block;
-        margin-bottom: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center; /* Center-align content */
     }
 
-    td {
+    td:before {
+        content: attr(data-label);
+        font-weight: bold;
         display: block;
-        text-align: left;
+        margin-bottom: 5px; /* Add space between label and data */
+        font-size: 16px; /* Increase font size for labels */
+    }
+
+    td:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Additional styling for specific headings on small screens */
+    .relato h2 {
+        font-size: 18px; /* Increase font size for specific headings */
+        font-weight: bold;
+        margin-bottom: 8px; /* Add some space below specific headings */
     }
 }
 
