@@ -366,6 +366,7 @@ td {
     #relato-video video {
         width: 45%;
         max-width: 45%;
+        height: auto;
     }
 }
 
@@ -378,4 +379,56 @@ td {
         width: 45%;
         max-width: 45%;
     }
+}
+
+
+/* Add this CSS to your existing style.css */
+
+/* Responsive styling for pricing table */
+@media only screen and (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+    
+    table, th, td {
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    /* Hide table header on small screens */
+    th {
+        display: none;
+    }
+
+    /* Display table rows as block for better readability on small screens */
+    tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    td {
+        display: block;
+        text-align: left;
+    }
+}
+
+/* Responsive styling for video */
+@media only screen and (max-width: 600px) {
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.dark-mode-button {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove border if not needed */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    cursor: pointer;
+}
+
+.dark-mode-button:hover {
+    background-color: #555; /* Darker background color on hover */
 }
