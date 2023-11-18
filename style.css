@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #89a2bb;
-    color: #343a40;
+    color: #333;
     text-align: center;
 }
 
@@ -437,4 +437,38 @@ td {
 
 .dark-mode-button:hover {
     background-color: #555; /* Darker background color on hover */
+}
+
+.dark-mode #services {
+    background-color: #363636;
+    color: #fff;
+}
+
+.dark-mode #services h2 {
+    color: #4285f4; /* Cor do título */
+}
+
+.dark-mode #services p {
+    color: #ccc; /* Cor do texto */
+}
+
+.dark-mode table {
+    background-color: #363636;
+    color: #fff;
+}
+
+.dark-mode table th,
+.dark-mode table td {
+    border: 1px solid #555; /* Cor da borda da tabela */
+    color: #fff;
+}
+
+.dark-mode .dark-mode-button {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .cta-button {
+    background-color: #1e4873;
+    color: #fff;
 }
