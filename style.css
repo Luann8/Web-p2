@@ -435,9 +435,7 @@ td {
     cursor: pointer;
 }
 
-.dark-mode-button:hover {
-    background-color: #555; /* Darker background color on hover */
-}
+
 
 .dark-mode #services {
     background-color: #363636;
@@ -471,4 +469,8 @@ td {
 .dark-mode .cta-button {
     background-color: #1e4873;
     color: #fff;
+}
+.dark-mode-button:hover {
+    background-color: #555; /* Cor de fundo mais escura durante o hover */
+    color: #fff; /* Cor do texto durante o hover */
 }
